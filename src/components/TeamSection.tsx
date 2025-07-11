@@ -3,11 +3,19 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Linkedin, Mail, Github, ExternalLink } from "lucide-react";
 
+// Import team member photos
+import sebastianPhoto from "@/assets/team/sebastian-hormero.jpg";
+import cristianPhoto from "@/assets/team/cristian-rodriguez.jpg";
+import isabelPhoto from "@/assets/team/isabel-delacuadra.jpg";
+import rodrigoPhoto from "@/assets/team/rodrigo-vasquez.jpg";
+import manuelPhoto from "@/assets/team/manuel-pinto.jpg";
+import piaPhoto from "@/assets/team/pia-gomez.jpg";
+
 const teamMembers = [
   {
     name: "Sebastian Hormero",
     role: "Senior Product Owner",
-    image: "/api/placeholder/300/300", 
+    image: sebastianPhoto, 
     linkedin: "https://www.linkedin.com/in/sebastianhormeroraque/",
     email: "sebastian.hormero@email.com",
     skills: ["Product Strategy", "Agile Methodologies", "User Research", "Data Analysis"],
@@ -17,7 +25,7 @@ const teamMembers = [
   {
     name: "Cristián Rodríguez",
     role: "Product Owner & UX Strategist",
-    image: "/api/placeholder/300/300",
+    image: cristianPhoto,
     linkedin: "https://www.linkedin.com/in/cris-rodr/",
     email: "cristian.rodriguez@email.com",
     skills: ["UX Strategy", "Design Thinking", "Product Roadmapping", "Stakeholder Management"],
@@ -27,7 +35,7 @@ const teamMembers = [
   {
     name: "Isabel de la Cuadra",
     role: "Product Owner & Business Analyst",
-    image: "/api/placeholder/300/300",
+    image: isabelPhoto,
     linkedin: "https://www.linkedin.com/in/isabeldelacuadralunas/",
     email: "isabel.delacuadra@email.com",
     skills: ["Business Analysis", "Requirements Engineering", "Process Optimization", "KPI Definition"],
@@ -37,7 +45,7 @@ const teamMembers = [
   {
     name: "Rodrigo Vasquez Delmiglio",
     role: "Product Owner & Innovation Lead",
-    image: "/api/placeholder/300/300",
+    image: rodrigoPhoto,
     linkedin: "https://www.linkedin.com/rvasquezd/",
     email: "rodrigo.vasquez@email.com",
     skills: ["Innovation Management", "Product Discovery", "Market Research", "Competitive Analysis"],
@@ -47,7 +55,7 @@ const teamMembers = [
   {
     name: "Manuel Pinto",
     role: "Product Owner & Technical Lead",
-    image: "/api/placeholder/300/300",
+    image: manuelPhoto,
     linkedin: "https://www.linkedin.com/in/manuel-pinto-c%C3%A1ceres-b31679111/",
     email: "manuel.pinto@email.com",
     skills: ["Technical Product Management", "API Strategy", "System Architecture", "DevOps Integration"],
@@ -57,7 +65,7 @@ const teamMembers = [
   {
     name: "Pía Gómez",
     role: "Product Owner & Growth Specialist",
-    image: "/api/placeholder/300/300",
+    image: piaPhoto,
     linkedin: "https://www.linkedin.com/in/piagomez/",
     email: "pia.gomez@email.com",
     skills: ["Growth Hacking", "Analytics", "A/B Testing", "Customer Success"],

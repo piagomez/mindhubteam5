@@ -4,12 +4,12 @@ import { Badge } from "@/components/ui/badge";
 import { Linkedin, Mail, Github, ExternalLink } from "lucide-react";
 
 // Import team member photos
-import sebastianPhoto from "@/assets/team/real-profile-photo.jpeg";
-import cristianPhoto from "@/assets/team/cristian-rodriguez.jpeg";
-import isabelPhoto from "@/assets/team/isabel-delacuadra.jpeg";
-import rodrigoPhoto from "@/assets/team/rodrigo-vasquez.jpeg";
-import manuelPhoto from "@/assets/team/manuel-pinto.jpeg";
-import piaPhoto from "@/assets/team/pia-gomez.jpeg";
+import sebastianPhoto from "@/assets/team/real-profile-photo.jpg";
+import cristianPhoto from "@/assets/team/cristian-rodriguez.jpg";
+import isabelPhoto from "@/assets/team/isabel-delacuadra.jpg";
+import rodrigoPhoto from "@/assets/team/rodrigo-vasquez.jpg";
+import manuelPhoto from "@/assets/team/manuel-pinto.jpg";
+import piaPhoto from "@/assets/team/pia-gomez.jpg";
 
 const teamMembers = [
   {

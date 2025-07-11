@@ -4,7 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { Linkedin, Mail, Github, ExternalLink } from "lucide-react";
 
 // Import team member photos
-import sebastianPhoto from "@/assets/team/real-profile-photo.jpeg";
+import sebastianPhoto from "@/assets/team/sebastian-hormero.jpeg";
 import cristianPhoto from "@/assets/team/cristian-rodriguez.jpeg";
 import isabelPhoto from "@/assets/team/isabel-delacuadra.jpeg";
 import rodrigoPhoto from "@/assets/team/rodrigo-vasquez.jpeg";
